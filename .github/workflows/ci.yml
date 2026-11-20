@@ -22,4 +22,5 @@ jobs:
       - run: npm test
       - run: npm run build
       # Smoke-test the built CLI on a fast-path reply (no API key needed).
-      - run: echo "Back on Monday." | node dist/bin.js --subject "Out of Office: hello" --compact
+      - run: |
+          echo "Back on Monday." | node dist/bin.js --subject "Out of Office: hello" --compact
