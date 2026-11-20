@@ -1,0 +1,45 @@
+{"id":"int-01","expected":"interested","reply":"This actually lines up with something we've been talking about internally. Send over whatever you have, a one-pager or deck would be great."}
+{"id":"int-02","expected":"interested","notes":"Gmail quote + signature","reply":"Yes, we'd like to try it. What's the next step to get a trial set up?\n\nThanks,\nDaniela Ortiz\nOps Lead | Larkspur Freight\n+1 555 0100\n\nOn Mon, Nov 2, 2026 at 9:14 AM Mira Patel <mira@shiftloom.example.com> wrote:\n> Hi there,\n>\n> Shiftloom builds shift schedules for warehouse teams from your order forecast.\n> Would a 20-minute walkthrough be useful?\n>\n> Mira"}
+{"id":"int-03","expected":"interested","reply":"Good timing. We're evaluating options this month, so count us in for the pilot."}
+{"id":"int-04","expected":"interested","notes":"cc's a colleague but stays the contact: not a referral","reply":"I'm interested. I'll stay your main contact, cc'ing Tomás (tomas.vidal@larkspur.example.com) so he's in the loop on the technical side."}
+{"id":"q-01","expected":"question","reply":"Does this integrate with SAP, or only with the newer cloud WMS tools?"}
+{"id":"q-02","expected":"question","notes":"positive tone but the ask is a specific question","reply":"This looks genuinely useful for our night shift. Before I take it to my manager: how is pricing structured, per site or per user?"}
+{"id":"q-03","expected":"question","reply":"What happens to our data if we stop using it? We'd need a full export."}
+{"id":"q-04","expected":"question","reply":"Interesting. Is this SOC 2 certified? Our security team will ask that first."}
+{"id":"q-05","expected":"question","notes":"German","reply":"Funktioniert das auch mit mehreren Lagerstandorten? Wir haben drei in Norddeutschland."}
+{"id":"m-01","expected":"meeting_request","reply":"Let's talk. Thursday after 2pm ET works, or Friday morning."}
+{"id":"m-02","expected":"meeting_request","reply":"Happy to take a look. Grab 30 minutes here: https://cal.example.com/r-okafor"}
+{"id":"m-03","expected":"meeting_request","notes":"interested + explicit demo request","reply":"Really like the idea. Could you set up a demo for me and two of my supervisors next week?"}
+{"id":"m-04","expected":"meeting_request","notes":"mentions questions but asks for a call; Outlook quote + mobile footer","reply":"Can we do a quick call Tuesday at 10:30? I have a couple of questions about rollout.\n\nSent from my iPhone\n\n________________________________\nFrom: Mira Patel <mira@shiftloom.example.com>\nSent: Monday, November 2, 2026 9:14 AM\nTo: Operations <ops@larkspur.example.com>\nSubject: Shift scheduling at Larkspur\n\nHi there,\n\nShiftloom builds shift schedules for warehouse teams from your order forecast.\nWould a 20-minute walkthrough be useful?\n\nMira"}
+{"id":"nn-01","expected":"not_now","expect_follow_up":true,"reply":"Not a priority right now. Ask me again in March when we plan next year's budget."}
+{"id":"nn-02","expected":"not_now","reply":"We just signed a 12-month contract with another vendor in September. Try me around renewal time."}
+{"id":"nn-03","expected":"not_now","expect_follow_up":true,"reply":"Timing is bad, we're in the middle of a system migration until the end of Q1. Reach back out after that."}
+{"id":"nn-04","expected":"not_now","notes":"polite no with explicit opening for later","reply":"Thanks for reaching out. We don't have budget for new tools this year, but feel free to check in next year."}
+{"id":"nn-05","expected":"not_now","expect_follow_up_date":"2027-01-15","reply":"Interesting, but I'm heads-down on peak season through December. Can you follow up on January 15?"}
+{"id":"ni-01","expected":"not_interested","reply":"Thanks, but we're all set with our current process."}
+{"id":"ni-02","expected":"not_interested","notes":"warm tone, no opening for later","reply":"I appreciate the thoughtful note, and the product looks well made. It's just not something we'd use. We're a two-person team and scheduling is a whiteboard. Best of luck with it!"}
+{"id":"ni-03","expected":"not_interested","reply":"No thanks."}
+{"id":"ni-04","expected":"not_interested","reply":"We built something in-house for this years ago and it works fine for us. Not going to switch."}
+{"id":"ni-05","expected":"not_interested","reply":"We looked at tools like this last year and decided against it. I don't see that changing."}
+{"id":"u-01","expected":"unsubscribe","reply":"Unsubscribe"}
+{"id":"u-02","expected":"unsubscribe","notes":"polite, no keyword 'unsubscribe'","reply":"Hi Mira, I'm sure this is a great product, but would you mind taking me off your mailing list? Thanks so much and have a nice week."}
+{"id":"u-03","expected":"unsubscribe","reply":"Please stop emailing me. This is the third message this month."}
+{"id":"u-04","expected":"unsubscribe","notes":"not interested + names someone, but opt-out wins","reply":"Not interested. Remove my address from your list, please. Jordan Lee handles vendor stuff, but I'd rather you didn't mention my name."}
+{"id":"u-05","expected":"unsubscribe","notes":"data-protection phrasing","reply":"Under GDPR I'm asking you to delete my details and not to contact me again."}
+{"id":"u-06","expected":"unsubscribe","notes":"indirect phrasing, no keyword the regex knows","reply":"Kindly leave me out of any future sends from your team."}
+{"id":"r-01","expected":"referral","expect_referral_email":"priya.raman@larkspur.example.com","reply":"I'm not the right person for this. Try Priya Raman (priya.raman@larkspur.example.com), she runs our warehouse ops."}
+{"id":"r-02","expected":"referral","notes":"not interested personally, but refers","expect_referral_email":"marcus.bell@ironbay.example.org","reply":"Not something I'd buy, honestly. But our COO, Marcus Bell, has been complaining about shift scheduling for months: marcus.bell@ironbay.example.org"}
+{"id":"r-03","expected":"referral","expect_referral_email":"hannah.cho@example.net","reply":"I moved to a different role in October. Hannah Cho took over procurement: hannah.cho@example.net"}
+{"id":"r-04","expected":"referral","notes":"name only, no email","reply":"Please reach out to Sven in our Rotterdam office instead, he owns this."}
+{"id":"r-05","expected":"referral","notes":"quoted history contains another address","expect_referral_email":"ana.ruiz@example.org","reply":"Looping in the right person: Ana Ruiz (ana.ruiz@example.org) leads our logistics team and can tell you if this fits.\n\nOn Mon, Nov 2, 2026 at 9:14 AM Mira Patel <mira@shiftloom.example.com> wrote:\n> Hi there,\n>\n> Shiftloom builds shift schedules for warehouse teams from your order forecast.\n> Would a 20-minute walkthrough be useful?\n>\n> Mira"}
+{"id":"a-01","expected":"auto_reply","notes":"fast path: Auto-Submitted header","subject":"Re: Shift scheduling at Larkspur","headers":{"Auto-Submitted":"auto-replied"},"reply":"Thank you for your email. I am out of the office until Monday 9 November with limited access to email."}
+{"id":"a-02","expected":"auto_reply","notes":"fast path: subject","subject":"Out of Office: Shift scheduling at Larkspur","reply":"I'm away until 16 November. For urgent matters please call the front desk."}
+{"id":"a-03","expected":"auto_reply","notes":"no metadata, model must recognise it","reply":"This is an automated response. Your message has been received and our team will respond within 2 business days. Ticket #48213."}
+{"id":"a-04","expected":"auto_reply","notes":"leave notice that names a fallback contact","reply":"Hi, I'm on parental leave until February 2027 and won't be checking email. For anything urgent, contact office@larkspur.example.com."}
+{"id":"b-01","expected":"bounce","notes":"fast path: sender","from":"MAILER-DAEMON@mx.example.net","subject":"Undelivered Mail Returned to Sender","reply":"This is the mail system at host mx.example.net.\n\nI'm sorry to have to inform you that your message could not be delivered to one or more recipients.\n\n<k.adams@example.com>: host mx.example.com said: 550 5.1.1 User unknown"}
+{"id":"b-02","expected":"bounce","notes":"fast path: subject","from":"postmaster@example.org","subject":"Undeliverable: Shift scheduling at Larkspur","reply":"Delivery has failed to these recipients or groups:\n\nl.moreau@example.org\nThe email address you entered couldn't be found."}
+{"id":"b-03","expected":"bounce","notes":"no metadata, model must recognise it","reply":"Delivery to the following recipient failed permanently:\n\n    j.okoro@example.com\n\nTechnical details of permanent failure: The recipient server did not accept our requests to connect."}
+{"id":"o-01","expected":"other","notes":"left company, no replacement named","reply":"I no longer work at Larkspur Freight."}
+{"id":"o-02","expected":"other","reply":"Is this the Mira I met at the Rotterdam logistics expo? Small world if so!"}
+{"id":"o-03","expected":"other","notes":"wrong person, no referral","reply":"You've got the wrong person, I'm in finance, not operations. No idea who handles that, sorry."}
+{"id":"o-04","expected":"other","reply":"Got it, thanks."}

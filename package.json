@@ -1,0 +1,60 @@
+{
+  "name": "reply-triage",
+  "version": "0.1.0",
+  "description": "Triage replies to outbound sales emails with Claude: category, follow-up date, referral, suggested reply. Library, CLI and HTTP endpoint.",
+  "license": "MIT",
+  "author": "Blue Dragon Team",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluedragonteam/reply-triage.git"
+  },
+  "keywords": [
+    "claude",
+    "anthropic",
+    "email",
+    "sales",
+    "outreach",
+    "classification",
+    "structured-output"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "reply-triage": "./dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "tsx eval/run.ts",
+    "serve": "tsx src/serve.ts",
+    "start": "node dist/serve.js",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "zod": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "tsx": "^4.23.0",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
